@@ -1,5 +1,5 @@
 pipeline {
-    agent {label: dockerlabel}
+    agent {label: ansidockerlabel}
 
     stages {
         stage('Build') {
