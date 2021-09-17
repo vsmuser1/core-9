@@ -1,5 +1,5 @@
 pipeline {
-    agent {label: mavenlabel}
+    agent {label: dockerlabel}
 
     stages {
         stage('Build') {
