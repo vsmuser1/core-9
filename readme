@@ -1,1 +1,5 @@
 environment setup steps:
+
+terrafrom init
+terraform plan
+terrafrom apply
