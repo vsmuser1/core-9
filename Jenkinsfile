@@ -15,6 +15,7 @@ pipeline {
         stage('Deploy') {
             steps {
                 echo 'Deploying....'
+                sh 'terrafrom plan -out abc.plan && terrafrom apply abc.plan'
             }
         }
     }
