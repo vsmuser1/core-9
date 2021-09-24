@@ -2,3 +2,5 @@
  ADD .  /app
  WORKDIR /app
  RUN pip install -r requirement.txt
+ENV
+CMD
